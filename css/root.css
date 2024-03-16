@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Mova;
+    src: url("../fonts/Mova.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: #2e2b2b;
+    --secondary-color: #bdbdbd;
+    
+    --secondary-text-color: #616161;
+    --tertiarty-text-color:  #fab516;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--secondary-color);
+    padding: 0;
+    margin: 0;
+}
+
+/* * Link decoration remover */
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* * NAVBAR */
+
+
+
+.nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    background: var(--primary-color);
+    height: 150px;
+    position: static;
+    z-index: 1;
+}
+
+.nav-logo-container {
+    width: 30vw;
+    display: inline;
+    height: 150px;
+    
+}
+
+.nav-logo {
+    padding: 1em;
+    height: 80%;
+}
+
+.nav-link {
+    font-family: "Mova";
+    color: var(--secondary-color);
+    padding: 1em;
+    font-size: 2em;
+    align-self: center;
+}
+
+.nav-link-container {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    height: 150px;
+}
+

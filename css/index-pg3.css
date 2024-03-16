@@ -1,0 +1,58 @@
+@import url(../css/index-pg1.css);
+
+.page-3-container {
+    width: 100vw;
+    height: 60vh;
+    background-image: url(../images/wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-title {
+    align-self: flex-start;
+}
+
+.skill-title-1 {
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    /* color: var(--secondary-text-color); */
+    color: grey;
+}
+
+.skill-title-2 {
+    font-family: "Mova";
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    color: var(--secondary-color);
+}
+
+.skill-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    height: 130px;
+    width: 130px;
+    border-radius: 100vh;
+}
+
+
+
+.skill-card-container {
+    width: 80vw;
+    height: 20vh;
+    /* background: var(--primary-color); */
+    display: flex;
+    justify-content: space-evenly;
+}
